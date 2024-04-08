@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+body {
+  background-color: #F6F6F6;
+  /* background-color: palevioletred; */
+  }
+
+.background {
+  background-color: #F6F6F6;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  background-color: white;
+  /* background-color: rgb(18, 10, 247); */
+  margin: 45px 85px;
+  padding: 92px 0px 145px;
+  width: 1000px;
+  height: 1000px;
+}
+
+input:focus {
+  outline: 1px solid lightgreen;
+}
+/* .login_form {
+  margin: 50px;
+  padding: 0;
+  width: 50px;
+  height: auto;
+} */
+
+
+.login_letter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px 0px 0px 0px;
+}
+
+.login_letter > p {
+  margin: 0;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.login_description {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.login_description > p {
+  margin: 6px 0px 12px;
+  font-size: 18px;
+  color: #888888;
+}
+
+.insert {
+  margin: 0px 150px;
+}
+
+.insert_id {
+  padding: 0 20px;
+  width: 700px;
+  height: 65px;
+  margin-bottom: 0.5rem;
+}
+
+#userid {
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  width: 510px;
+  padding: 25px;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+}
+
+.insert_password {
+  padding: 0 20px;
+  width: 700px;
+  height: 60px;
+  margin-bottom: 0.5rem;
+}
+
+#userpwd {
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  width: 510px;
+  padding: 25px;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+}
+
+.login_sub {
+  width: 510px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 14px;
+  margin: 0px 0px 0px 92px;
+}
+
+.login_sub > p {
+  color: #999999;
+  font-size: 14px;
+}
+
+a:link {
+  color: #999999; text-decoration: none;
+}
+a:visited {
+  color: #999999; text-decoration: none;
+}
+a:hover {
+  color: #999999; text-decoration: none;
+}
+
+.login_but {
+  position: absolute;
+  background-color: #9bce26;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  border: none;
+  width: auto;
+  min-height: 60px;
+  min-width: 510px;
+  cursor: pointer;
+}
+
+.login_button {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 11px 0px 11px;
+}
+
+.joinmembership_kakao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 80px 0px 0px 92px;
+  width: 510px;
+  height: 60px;
+}
+
+.joinmembership_kakao > p {
+  font-size: 14px;
+  font-weight: 200px;
+  color: #999999;
+  margin: 0px 0px 30px;
+}
+
+.joinmembership_kakao > img {
+  width: 40%;
+}
+
+.joinmembership_cj {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 0px 0px 92px;
+  padding: 7px 0px 0px;
+  box-sizing: border-box;
+  border-top: solid 0.8px #bdb6b6;
+  width: 510px;
+  height: 60px;
+}
+
+.joinmembership_cj > img {
+  margin: 10px 0px 0px 0px;
+  width: 180px;
+  height: 50px;
+}
+
+.joinmembership_cj_button {
+  margin: 0px;
+  width: 300px;
+  height: 50px;
+}
+
+.joinmembership_cj_button > p{
+  font-size: 13px;
+  color: #777777;
+  font-weight: 700;
+}
+
+.cjbutton {
+  margin: 37px 0px 0px;
+}
+
+.joincjbutton {
+  position: absolute;
+  background-color: #FFFFFF;
+  color: #333333;
+  text-align: center;
+  width: auto;
+  min-height: 40px;
+  min-width: 170px;
+  border-color: #9bce26;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 37px 0px 0px;
+  cursor: pointer;
+}
